@@ -97,13 +97,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UPSAssesment\UPSAssessment.csproj">
-      <Project>{C026D851-E5E9-49C7-BD25-E81FDA767CB6}</Project>
-      <Name>UPSAssessment</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\UPSAssessment\UPSAssessment.csproj">
+      <Project>{c026d851-e5e9-49c7-bd25-e81fda767cb6}</Project>
+      <Name>UPSAssessment</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
