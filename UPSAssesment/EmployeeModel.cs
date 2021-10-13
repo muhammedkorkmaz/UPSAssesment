@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,10 +15,19 @@ namespace UPSAssessment
 
     public class Employee
     {
+        [DisplayName("ID")]
         public long? id { get; set; }
+
+        [DisplayName("Name")]
         public string name { get; set; }
+
+        [DisplayName("E-Mail")]
         public string email { get; set; }
+
+        [DisplayName("Gender")]
         public string gender { get; set; }
+
+        [DisplayName("Status")]
         public string status { get; set; }
     }
 
